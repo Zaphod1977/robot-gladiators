@@ -96,6 +96,7 @@ var startGame = function() {
             window.alert('You have lost your robot in battle! Game Over!');
         }   
     }
+    startGame();
 }    
 // start the game when the page loads
 startGame();
